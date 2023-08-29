@@ -8,9 +8,9 @@ explorePDF.py Tika pulled all the metadata (not the content) as such the field n
   * 1548 have NCCL_ whatever that is...
   * 516 with PDFAnnotator
 
- Top 50 creator
+top 50 pdf:docinfo:creator_tool
 
- c42pdf v. 0.12 args:                                            12422
+c42pdf v. 0.12 args:                                            12422
 Acrobat 3.0 Capture Plug-in                                      8275
 Adobe Acrobat 7.08                                               5240
 Acrobat 5.0 Paper Capture Plug-in for Windows                    4822

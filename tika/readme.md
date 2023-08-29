@@ -10,7 +10,8 @@ explorePDF.py Tika pulled all the metadata (not the content) as such the field n
 
 top 50 pdf:docinfo:creator_tool
 
-
+| pdf:docinfo:creator_tool                                     | count |
+|--------------------------------------------------------------|-------|
 | c42pdf v. 0.12 args                                          | 12422 |
 | Acrobat 3.0 Capture Plug-in                                  | 8275  |
 | Adobe Acrobat 7.08                                           | 5240  |
@@ -60,5 +61,3 @@ top 50 pdf:docinfo:creator_tool
 | Parlance Publisher 5.0/(Xyvision Postscript Formatter) 3.0 3 | 330   |
 | Acrobat PDFMaker 9.1 for Word                                | 295   |
 | PDFStamp 3.2.4 for Windows powered by PDFeverywhere 3.0      | 291   |
-
-

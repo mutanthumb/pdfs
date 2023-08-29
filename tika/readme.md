@@ -9,6 +9,8 @@ so I'm having it add new field names (to become column headers) as it goes along
   * 1548 have NCCL_ whatever that is...
   * 516 with PDFAnnotator
 
+Sample of the output from Tika:
+
 top 50 pdf:docinfo:creator_tool
 
 | pdf:docinfo:creator_tool                                     | count |

@@ -1,0 +1,1 @@
+A Tika and PDF pile update, I'm still running this, it's been slow going as I'm having it pull all the metadata (not the content) as such the field names have been a bit inconsistent so I'm having it add new field names (to become column headers) as it goes along. 

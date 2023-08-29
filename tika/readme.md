@@ -10,6 +10,7 @@ explorePDF.py Tika pulled all the metadata (not the content) as such the field n
 
 top 50 pdf:docinfo:creator_tool
 
+
 | c42pdf v. 0.12 args                                          | 12422 |
 | Acrobat 3.0 Capture Plug-in                                  | 8275  |
 | Adobe Acrobat 7.08                                           | 5240  |

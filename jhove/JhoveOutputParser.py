@@ -33,11 +33,12 @@ for pdf in matches:
     noEncode = re.findall('Encoding: Identity-H\n\s+Font: \n', pdf[1], re.M)
     cid = re.findall('CIDFontType0:', pdf[1], re.M)
     '''
+    # text represented by (.*?) is captured and returned. re.M means over multiple lines. 
     pdfStatus = re.findall('  Status: (.*?)\n', pdf[1], re.M)
     pdfTitle = re.findall('    Title: (.*?)\n', pdf[1], re.M)
     pdfCreator = re.findall('    Creator: (.*?)\n', pdf[1], re.M)
     pdfFilter = re.findall('   Filters: \n    FilterPipeline: (.*?)\n   Fonts: ', pdf[1], re.M)
-    #cid = re.findall('CIDFontType0:', pdf[1], re.M)
+
     #print(pdf[0])
     #print(noEncode)
 
